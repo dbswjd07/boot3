@@ -1,0 +1,7 @@
+select * from tbl_boards2 order by bno desc; 
+
+commit;
+
+drop table tbl_boards2;
+
+commit;
